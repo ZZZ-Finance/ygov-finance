@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    container_name: zzz_staking
+    build: .
+    environment:
+      - PORT=8888
+    ports:
+      - 8890:8888
